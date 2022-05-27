@@ -11,7 +11,9 @@ puts "está lloviendo? (si/no)  "
 lluv=gets.chomp
 
 if temp>'25' && lluv == "no"
-    puts “Lindo día para salir”
-  else temp<='25' && lluv =="si"
-    puts “Hoy me quedo en casa a ver películas”
+    puts "Lindo día para salir"
+ elsif temp<='25' && lluv =="si"
+    puts "Hoy me quedo en casa a ver películas"
+ else
+    puts "hoy no se trabaja"
 end
